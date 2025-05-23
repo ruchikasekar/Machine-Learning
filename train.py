@@ -18,6 +18,7 @@ predictions = clf.predict(x_test)
 
 accuracy = np.sum(predictions == y_test) / len(y_test)
 
-
+print("Predictions: " + predictions)
+print("Accuracy: " + accuracy)
 
 
